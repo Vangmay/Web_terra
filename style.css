@@ -4,11 +4,11 @@
 :root{
     --purple:#604498;
     --blue:#8d8ae3;
-    --blue_but_lighter:rgba(141, 138, 227,0.5);
-    --primary:var(--blue);
+    --blue_but_lighter:#a398c0;
+    --primary:#ede0dd;
     --light:#EEEEEE;
     --dark:#212121;
-    --darkpurple:#021F4B;
+    --darkpurple:#d3d3e4;
     --green:#37836e;
     --hamburgerColour:#FFF
 }
@@ -138,4 +138,10 @@ nav{
 .mobile-nav a:hover{
     color:var(--darkpurple);
     background-color: var(--blue_but_lighter);
+}
+
+@media only screen and (max-device-width: 480px) {
+    .mobile-nav{
+        width: 100%;
+    }
 }
