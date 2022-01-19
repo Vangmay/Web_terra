@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 13276,
+      "count": 1319,
       "max": [
-        24.214391708374023,
-        27.397052764892578,
-        15.71771240234375
+        17.205303192138672,
+        13.193681716918945,
+        23.257038116455078
       ],
       "min": [
-        4.927072525024414,
-        1.1340069770812988,
-        -22.292661666870117
+        -54.39200210571289,
+        -13.030183792114258,
+        -18.521095275878906
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 159312,
+      "byteOffset": 15828,
       "componentType": 5126,
-      "count": 13276,
+      "count": 1319,
       "max": [
         1.0,
         1.0,
@@ -36,53 +36,165 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 13276,
+      "count": 1319,
       "max": [
-        0.9978578090667725,
-        1.0
+        0.9810284376144409,
+        0.9866691827774048
       ],
       "min": [
-        0.0,
-        0.0
+        0.01339515671133995,
+        0.18633855879306793
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 39630,
+      "count": 2178,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31656,
+      "componentType": 5126,
+      "count": 752,
+      "max": [
+        -6.63823938369751,
+        1.4647026062011719,
+        15.599935531616211
+      ],
+      "min": [
+        -22.039321899414063,
+        -13.936382293701172,
+        9.385673522949219
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 40680,
+      "componentType": 5126,
+      "count": 752,
+      "max": [
+        0.9807857871055603,
+        0.9807853698730469,
+        1.0
+      ],
+      "min": [
+        -0.9807852506637573,
+        -0.9807853102684021,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10552,
+      "componentType": 5126,
+      "count": 752,
+      "max": [
+        0.9716144800186157,
+        0.964410662651062
+      ],
+      "min": [
+        0.923487663269043,
+        0.3218691349029541
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 8712,
+      "componentType": 5125,
+      "count": 1152,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49704,
+      "componentType": 5126,
+      "count": 760,
+      "max": [
+        -6.63823938369751,
+        1.4647026062011719,
+        16.60025405883789
+      ],
+      "min": [
+        -22.039321899414063,
+        -13.936382293701172,
+        8.385374069213867
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 58824,
+      "componentType": 5126,
+      "count": 760,
+      "max": [
+        0.9807857871055603,
+        0.9807854294776917,
+        1.0
+      ],
+      "min": [
+        -0.9807852506637573,
+        -0.9807853102684021,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16568,
+      "componentType": 5126,
+      "count": 760,
+      "max": [
+        0.9716144800186157,
+        0.964410662651062
+      ],
+      "min": [
+        0.923487663269043,
+        0.3218691349029541
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13320,
+      "componentType": 5125,
+      "count": 1152,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Robbe Vlaeminck (https://sketchfab.com/robbe.vlaeminck)",
+      "author": "Qbo2Qbo (https://sketchfab.com/Qbo2Qbo)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/3december-day2-scooter-5493bede3f334fe6942d7eef561171e2",
-      "title": "3December - Day2 - Scooter"
+      "source": "https://sketchfab.com/3d-models/low-poly-scooter-cf0b53fddb5c469b9d0259104151f72d",
+      "title": "Low Poly Scooter"
     },
-    "generator": "Sketchfab-12.16.1",
+    "generator": "Sketchfab-12.15.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 158520,
+      "byteLength": 17928,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 106208,
-      "byteOffset": 158520,
+      "byteLength": 22648,
+      "byteOffset": 17928,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 318624,
-      "byteOffset": 264728,
+      "byteLength": 67944,
+      "byteOffset": 40576,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -90,28 +202,31 @@
   ],
   "buffers": [
     {
-      "byteLength": 583352,
+      "byteLength": 108520,
       "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/MAT_Base_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "phong1",
+      "name": "MAT_Base",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.5,
-          0.5,
-          0.5,
-          1.0
-        ],
-        "metallicFactor": 0.0
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
       }
     }
   ],
   "meshes": [
     {
-      "name": "pSphere3_phong1_0",
+      "name": "G_Scooter_MAT_Base_0",
       "primitives": [
         {
           "attributes": {
@@ -120,6 +235,36 @@
             "TEXCOORD_0": 2
           },
           "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "G_Scooter_FWheel_MAT_Base_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "G_Scooter_BWheel_MAT_Base_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
           "material": 0,
           "mode": 4
         }
@@ -173,11 +318,13 @@
         0.0,
         1.0
       ],
-      "name": "scooter_unwrapped.fbx"
+      "name": "7a398a88744d4a348d29fb495f77afe0.fbx"
     },
     {
       "children": [
-        3
+        3,
+        6,
+        9
       ],
       "name": "RootNode"
     },
@@ -185,11 +332,165 @@
       "children": [
         4
       ],
-      "name": "pSphere3"
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        21.646446228027344,
+        25.790435791015625,
+        -1.269101375100945e-07,
+        1.0
+      ],
+      "name": "G_Scooter"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.08174872398376465,
+        0.0,
+        1.0
+      ],
+      "name": "Object_4"
     },
     {
       "mesh": 0,
-      "name": "pSphere3_phong1_0"
+      "name": "G_Scooter_MAT_Base_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999999999867,
+        1.6292068494294582e-07,
+        0.0,
+        0.0,
+        -1.6292068494294582e-07,
+        0.9999999999999867,
+        0.0,
+        -26.2156982421875,
+        7.848039150238037,
+        -8.94807783424767e-08,
+        1.0
+      ],
+      "name": "G_Scooter_FWheel"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        14.338781356811523,
+        6.235841751098633,
+        -12.492753028869629,
+        1.0
+      ],
+      "name": "Object_7"
+    },
+    {
+      "mesh": 1,
+      "name": "G_Scooter_FWheel_MAT_Base_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999999999867,
+        1.6292068494294582e-07,
+        0.0,
+        0.0,
+        -1.6292068494294582e-07,
+        0.9999999999999867,
+        0.0,
+        23.015117645263672,
+        7.848039150238037,
+        -8.94807783424767e-08,
+        1.0
+      ],
+      "name": "G_Scooter_BWheel"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        14.338781356811523,
+        6.235841751098633,
+        -12.492753028869629,
+        1.0
+      ],
+      "name": "Object_10"
+    },
+    {
+      "mesh": 2,
+      "name": "G_Scooter_BWheel_MAT_Base_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
     }
   ],
   "scene": 0,
@@ -199,6 +500,12 @@
       "nodes": [
         0
       ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
     }
   ]
 }

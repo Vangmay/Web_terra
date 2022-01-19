@@ -1,4 +1,18 @@
 .heroo{
     height: 100vh;
-    background: rgba(0,0,0,0.4);
+}
+.link{
+    color: red;
+}
+
+.button{
+    border-radius: 12px;
+    background:rgba(163, 221, 255, 0.904);
+    padding:10px;
+    border: none;
+    transition: 0.2s ease-out;
+}
+.button:hover{
+    background:rgba(151, 117, 243, 0.3);
+    box-shadow: 10px 7px #e3e3e3;
 }

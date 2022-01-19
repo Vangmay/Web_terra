@@ -6,15 +6,12 @@ const Width = hero.clientWidth
 const Height=  hero.clientHeight
 const scene = new THREE.Scene();
 
-//Dat gui
-const gui = new dat.GUI()
 
 const camera = new THREE.PerspectiveCamera(40,Width/Height,1,5000);
-// camera.rotation.y = 45/180 * Math.PI;
-
-gui.add(camera.position,'x',0,10000)
-gui.add(camera.position,'y',0,10000)
-gui.add(camera.position,'z',0,10000)
+camera.rotation.y = 45/180 * Math.PI;
+camera.position.x = 1221;
+camera.position.y = 389;
+camera.position.z = 1221;
 
 const renderer = new THREE.WebGLRenderer({alpha:true});
 renderer.setSize( Width,Height );
@@ -60,21 +57,27 @@ document.addEventListener('mousemove', onMouseMove)
 const clock = new THREE.Clock()
 
 let loader = new THREE.GLTFLoader();
-loader.load('./scene.gltf',function(gltf){
-    const scooter = gltf.scene.children[0]
-    scooter.scale.x = 0.5
-    scooter.scale.y = 0.5
-    scooter.scale.z = 0.5
-    scene.scale.set(5,5,5)
-    scene.add(scooter)
+loader.load('./Earth.gltf',function(gltf){
+    earth = gltf.scene.children[0]
+    scene.scale.set(1.2,1.2,1.2)
+    scene.add(earth)
     animate();
 })
 
 function animate() {
     targetX = mouseX * 0.001
     targetY = mouseY * 0.001
+
+    const elapsedTime = clock.getElapsedTime()
+    
     requestAnimationFrame( animate );
 	renderer.render( scene, camera );
+    
+    earth.rotation.y = 0.5 * elapsedTime
+    earth.rotation.y += 1.6 * (targetX - earth.rotation.y)
+    earth.rotation.x += 1.6 * (targetY - earth.rotation.x)
+    earth.rotation.z += 1.6 * (targetY - earth.rotation.x)
+    
 }
 
 
@@ -82,6 +85,7 @@ function onWindowResize() {
     let Width = hero.clientWidth
     let Height = hero.clientHeight
     camera.aspect = Width/ Height;
+    
     camera.updateProjectionMatrix();
     renderer.setSize( Width,Height );
     
