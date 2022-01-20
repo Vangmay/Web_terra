@@ -16,3 +16,31 @@
     background:rgba(151, 117, 243, 0.3);
     box-shadow: 10px 7px #e3e3e3;
 }
+
+.colour1{
+    background: url('./img/okinawa.PNG');
+    background-size:100% ;
+    background-repeat:no-repeat;
+    background-position:center ;
+}
+.colour2{
+    background: url('./img/RV400-1.png');
+    background-size:100% ;
+    background-repeat:no-repeat;
+    background-position:center ;
+
+}
+.colour3{
+    background: url('./img/battre.png');
+    background-size:100% ;
+    background-repeat:no-repeat;
+    background-position:center ;
+
+}
+.colour4{
+    background: url('./img/grey.png');
+    background-size:100% ;
+    background-repeat:no-repeat;
+    background-position:center ;
+
+}
